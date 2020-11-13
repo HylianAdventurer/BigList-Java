@@ -1,0 +1,27 @@
+CSC 410 – Assignment – Big Number List 1
+
+Consider this a prototype for a future project. As such you can make some judgement calls
+about how you solve the problems.   Our answers may not be identical in this round of development.
+
+To demonstrate the task, here is sample output as well as a description of the values.
+
+M:  17 17  1 14  1 12  5  7 12 23
+N:  21  7 37 16 26 27 22 27 32 33
+P:   4 10 36  2 25 15 17 20 20 10
+Q:   4  2 36  2 25  3  2  3  4 11
+R:   4  2 35  2 24  3  4  2  4  2
+
+M: a list of numbers 1 to High1
+N: a list of numbers 1 to High2
+The next 3 are pairwise based on index k of the list
+P: the difference between the element in Mk and Nk
+Q: the largest value ( < max(Mk,Nk) ) that divides Mk & Nk with a remainder of 0 or 1
+R: the largest value ( < max(Mk,Pk) ) that divides Mk & Pk with a remainder of 0 or 1
+Make these parameters easy to change – but you can edit your code to make it happen.
+    Number of items in the list
+    Source of values in the M & N lists
+    Threshold of Q & R  ( for instance remainder is 2 or less, etc. )
+    The number of items to print
+
+For now, fill your list with random values.  In the future for testing we may have a more specific filling procedure.
+Time your code.  Consider timing sections rather than the full program so you can reason about speed-up, efficiency, etc.
